@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "69f264071676c78bb7b39daf",
+    "bookId": 1,
+    "categoryId": 1,
+    "categoryName": "Fiction",
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "13-9780451524935",
+    "price": 11.99,
+    "image": "1984.jpg",
+    "readNow": 0
+  },
+  {
+    "_id": "69f264071676c78bb7b39db0",
+    "bookId": 2,
+    "categoryId": 1,
+    "categoryName": "Fiction",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "13-9780743273565",
+    "price": 10.99,
+    "image": "gatsby.jpg",
+    "readNow": 1
+  },
+  {
+    "_id": "69f264071676c78bb7b39db1",
+    "bookId": 3,
+    "categoryId": 2,
+    "categoryName": "Philosophy",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "isbn": "13-9780140449334",
+    "price": 9.99,
+    "image": "meditations.jpg",
+    "readNow": 0
+  },
+  {
+    "_id": "69f264071676c78bb7b39db2",
+    "bookId": 4,
+    "categoryId": 2,
+    "categoryName": "Philosophy",
+    "title": "The Courage of Truth",
+    "author": "Michel Foucault",
+    "isbn": "13-9780312203412",
+    "price": 14.99,
+    "image": "foucault.jpg",
+    "readNow": 1
+  },
+  {
+    "_id": "69f264071676c78bb7b39db3",
+    "bookId": 5,
+    "categoryId": 3,
+    "categoryName": "Romantic",
+    "title": "Me Before You",
+    "author": "Jojo Moyes",
+    "isbn": "13-9780143124542",
+    "price": 12.99,
+    "image": "mebeforeyou.jpg",
+    "readNow": 0
+  },
+  {
+    "_id": "69f264071676c78bb7b39db4",
+    "bookId": 6,
+    "categoryId": 3,
+    "categoryName": "Romantic",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "isbn": "13-9780141439518",
+    "price": 8.99,
+    "image": "pride.jpg",
+    "readNow": 1
+  },
+  {
+    "_id": "69f264071676c78bb7b39db5",
+    "bookId": 7,
+    "categoryId": 4,
+    "categoryName": "Science",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "isbn": "13-9780553380163",
+    "price": 15.98,
+    "image": "hawking.jpg",
+    "readNow": 0
+  },
+  {
+    "_id": "69f264071676c78bb7b39db6",
+    "bookId": 8,
+    "categoryId": 4,
+    "categoryName": "Science",
+    "title": "The Gene",
+    "author": "Siddhartha Mukherjee",
+    "isbn": "13-9781476733524",
+    "price": 18.99,
+    "image": "thegene.jpg",
+    "readNow": 1
+  }
+]

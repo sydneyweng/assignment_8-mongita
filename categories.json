@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "69f264071676c78bb7b39dab",
+    "categoryId": 1,
+    "categoryName": "Fiction"
+  },
+  {
+    "_id": "69f264071676c78bb7b39dac",
+    "categoryId": 2,
+    "categoryName": "Philosophy"
+  },
+  {
+    "_id": "69f264071676c78bb7b39dad",
+    "categoryId": 3,
+    "categoryName": "Romantic"
+  },
+  {
+    "_id": "69f264071676c78bb7b39dae",
+    "categoryId": 4,
+    "categoryName": "Science"
+  }
+]
