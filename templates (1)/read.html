@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block container %}
+<h1>All Books</h1>
+
+<p>
+    <a href="{{ url_for('create')}}">Add New Book</a>
+</p>
+
+<div class="bookListAll">
+    
+    {% for book in books %}
+    <div class="bookCard">
+
+        <img src="{{ url_for('static', filename='images/categories/' + book.image)}}"
+             alt="{{ book.title}}"
+        >
+
+        <h3>{{ book.title }}</h3>
+        <p><strong>{{ book.author }}</strong></p>
+        <p>ISBN: {{ book.isbn }}</p>
+        <p>Category: {{ book.categoryName }}</p>
+        <p>Price: ${{ book.price }}</p>
+
+
+        <div class="change">
+            <a href="{{ url_for('edit', book_id=book.bookId) }}">Edit</a>
+            <a href="{{ url_for('delete', book_id=book.bookId )}}">Delete</a>
+
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}
+
+
+
+
+

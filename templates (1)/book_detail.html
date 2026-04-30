@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block container %}
+<main id="detailMain">
+
+    <section id="detailPage">
+        <div id="bookDetailCard">
+
+            <div id="bookCoverBox">
+                <img
+                    src="{{ url_for('static',
+                      filename='images/categories/' +
+                      book.image) }}"
+                      alt="{{ book.title }}" 
+                >
+            </div>
+
+            <h1 id="detailTitle">{{ book.title }}</h1>
+            <p id="detailAuthor">by {{ book.author }}</p>
+            <p id="detailPrice">${{ '%.2f'|format(book.price) }}</p>
+            <a class="actionButton" href="#">Add to Cart</a>
+
+            {% if book.readNow == 1 %}
+                <a class="actionButton" href="#">Read Now</a>
+            {% endif %}
+            
+            <div id="detailInfo">
+                <p>Category: {{ book.categoryName }}</p>
+                <p>ISBN: {{ book.isbn }}</p>
+            </div>
+
+            <a href="{{ url_for('category', categoryId=book.categoryId)}}" id="backButton">
+                Back to Category
+            </a>
+        </div>
+    </section>
+            
+</main>
+{% endblock %}
+
+
